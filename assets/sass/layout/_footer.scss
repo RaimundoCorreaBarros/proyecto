@@ -1,0 +1,20 @@
+footer {
+    padding: 3rem;
+    font-size: $small;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.footer__texto {
+    grid-row: 2;
+}
+.footer__iconos {
+    grid-row: 1;
+    a {
+        text-decoration: none;
+        color: green($color: #000000);
+    }  
+}
