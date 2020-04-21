@@ -10249,6 +10249,22 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
   }
 }
+@media (min-width: 992px) {
+  .card-body {
+    padding-left: 3rem;
+  }
+}
+.btn-color {
+  background-color: #84a9ac;
+  color: #ffffff;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.btn-color :hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 .navbar__color {
   font-family: "Raleway", sans-serif;
 }
@@ -10368,7 +10384,7 @@ inputsubmit {
 }
 
 .desarrolloweb {
-  padding-top: 4rem 0;
+  padding: 4rem 0;
   text-align: left;
 }
 
@@ -10376,17 +10392,21 @@ inputsubmit {
   padding: 2rem 0;
 }
 
-@media (min-width: 992px) {
-  .card-body {
-    padding-left: 3rem;
-  }
-}
 .musico {
   padding: 4rem 0;
 }
 
 .musico__texto {
   padding-bottom: 2rem;
+}
+
+.sonido {
+  padding: 4rem 0;
+  text-align: left;
+}
+
+.sonido__titulo {
+  padding-top: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
