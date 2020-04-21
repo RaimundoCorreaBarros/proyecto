@@ -3,6 +3,9 @@
 @import 'vendors/normalize.scss';
 @import 'vendors/bootstrap-4.4.1/scss/bootstrap.scss';
 
+// Abstracts
+@import 'abstracts/variables';
+
 // Base
 @import 'base/reset';
 @import 'base/tipography';
@@ -15,3 +18,5 @@
 @import 'layout/main';
 @import 'layout/section';
 @import 'layout/footer';
+@import 'layout/contacto';
+@import 'layout/desarrolloweb';

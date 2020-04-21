@@ -10225,9 +10225,13 @@ img {
 }
 
 body {
-  background-color: #fff;
+  color: #535c68;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #30336b;
 }
 
 @keyframes foto {
@@ -10298,16 +10302,20 @@ main p {
     text-align: justify;
   }
 }
-.section__tarjet {
-  width: 300px;
+.section__tarjeta {
   text-align: center;
 }
 
-.section__image img {
-  width: 100px;
-  height: auto;
+svg {
+  width: 45%;
+  fill: #badc58;
 }
 
+@media (max-width: 768px) {
+  .section__tarjeta {
+    padding: 1rem 0;
+  }
+}
 footer {
   padding: 3rem;
   font-size: 14px;
@@ -10327,6 +10335,31 @@ footer {
 .footer__iconos a {
   text-decoration: none;
   color: 0;
+}
+
+.contacto {
+  padding-top: 3rem;
+  width: 400px;
+}
+.contacto h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+input {
+  width: 350px;
+}
+inputsubmit {
+  width: 150px;
+}
+
+.desarrolloweb {
+  text-align: center;
+  padding-top: 4rem;
+}
+.desarrolloweb img {
+  width: 300px;
+  height: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
