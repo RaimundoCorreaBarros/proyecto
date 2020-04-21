@@ -10389,7 +10389,7 @@ inputsubmit {
 }
 
 .desarrolloweb__titulo {
-  padding: 2rem 0;
+  padding-bottom: 2rem;
 }
 
 .musico {
@@ -10406,7 +10406,7 @@ inputsubmit {
 }
 
 .sonido__titulo {
-  padding-top: 0;
+  padding-bottom: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
