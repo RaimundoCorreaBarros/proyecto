@@ -10255,13 +10255,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .btn-color {
-  background-color: #84a9ac;
-  color: #ffffff;
+  background-color: #3b6978;
   padding-left: 2rem;
   padding-right: 2rem;
+  border: 0;
 }
-.btn-color :hover {
-  background-color: #000000;
+.btn-color a {
+  background-color: #204051;
+  color: #ffffff;
+}
+.btn-color a :hover {
+  background-color: #204051;
   color: #ffffff;
 }
 

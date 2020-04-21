@@ -1,11 +1,20 @@
 .btn-color {
-    background-color: $claromedio;
-    color: $white;
+    background-color: $oscuromedio;
     padding-left: 2rem;
     padding-right: 2rem;
+    border: 0;
 
-    :hover {
-        background-color: $black;
+    a {
+        background-color: $oscuro;
         color: $white;
+
+        :hover {
+            background-color: $oscuro;
+            color: $white;
+        }
     }
+
+
+
+
 }
