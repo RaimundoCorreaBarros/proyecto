@@ -10232,6 +10232,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #30336b;
+  font-family: "Raleway", sans-serif;
 }
 
 @keyframes foto {
@@ -10360,6 +10361,14 @@ inputsubmit {
 .desarrolloweb img {
   width: 300px;
   height: auto;
+}
+
+.musico {
+  padding: 4rem 0;
+}
+
+.musico__texto {
+  padding-bottom: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
