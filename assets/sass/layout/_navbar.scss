@@ -1,0 +1,11 @@
+.navbar__color {
+    font-family: $raleway;
+    a {
+        color: $oscuro;
+
+        :hover {
+            color: $oscuromedio;
+        }
+    }
+    
+}

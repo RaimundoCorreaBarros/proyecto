@@ -13,12 +13,11 @@ Aun no logro definir bien el uso de colores que deseo para este proyecto pero ig
 
 $white: #ffffff;
 $black: #000000;
-$groenlandia: #22a6b3;
-$blurple: #4834d4;
-$koamaru: #30336b;
-$calaprofunda: #130f40;
 $mangogris: #535c68;
-$junebud: #badc58;
+$oscuro: #204051;
+$oscuromedio: #3b6978;
+$claromedio: #84a9ac;
+$claro: #cae8d5;
 
 
 Tipografías
