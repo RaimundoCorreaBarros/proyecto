@@ -10269,6 +10269,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 
+.btn-contacto {
+  padding: 0.5rem 2rem;
+  background-color: #3b6978;
+  border: 0;
+  color: #ffffff;
+}
+.btn-contacto a {
+  color: #ffffff;
+  background-color: #204051;
+}
+.btn-contacto a :hover {
+  background-color: #204051;
+  color: #ffffff;
+}
+
 .navbar__color {
   font-family: "Raleway", sans-serif;
 }

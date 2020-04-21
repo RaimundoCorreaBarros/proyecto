@@ -14,7 +14,22 @@
         }
     }
 
+}
 
+.btn-contacto {
+    padding: .5rem 2rem;
+    background-color: $oscuromedio;
+    border: 0;
+    color: $white;
+
+    a {
+        color: $white;
+        background-color: $oscuro;
+        :hover {
+            background-color: $oscuro;
+            color: $white;
+        }
+    }
 
 
 }
