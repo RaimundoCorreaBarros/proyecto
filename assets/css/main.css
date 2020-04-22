@@ -10226,13 +10226,13 @@ img {
 
 body {
   color: #535c68;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #204051;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Mono", monospace;
 }
 
 @keyframes foto {
@@ -10285,7 +10285,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar__color {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Mono", monospace;
 }
 .navbar__color a {
   color: #204051;
