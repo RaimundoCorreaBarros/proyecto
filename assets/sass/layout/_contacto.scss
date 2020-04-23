@@ -1,5 +1,5 @@
 .contacto {
-    padding-top: 3rem;
+    @include pagina;
     width: 400px;
 
     h2 {
@@ -9,10 +9,12 @@
 
 }
 
-input {
+input, textarea {
     width: 350px;
+    border: 2px solid $oscuromedio;
+}
 
-    &submit {
-        width: 150px;
-    }
+label {
+    margin-top: 1rem;
+    margin-bottom: 0 !important;
 }

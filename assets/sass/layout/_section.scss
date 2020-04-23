@@ -1,14 +1,27 @@
+.section {
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 .section__tarjeta {
     text-align: center;
+    padding-bottom: 3rem;
+}
+
+.seccion__titulo {
+    padding-bottom: .5rem;
 }
 
 svg {
-    width: 45%;
+    width: 40%;
     fill: $claromedio;
 }
 
 @media (max-width: 768px) {
     .section__tarjeta {
-        padding: 1rem 0;
+        padding-bottom: 1rem 0;
     }
 }
+

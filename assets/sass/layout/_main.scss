@@ -1,5 +1,5 @@
 main {
-    padding: 1rem 0;
+    @include pagina;
     display: grid;
     grid-template-columns: 1fr 2fr;
     h1 {
@@ -16,7 +16,7 @@ main {
     align-self: center;
 
     img {
-        animation: foto 5s ease-in;
+        animation: foto 3s ease-in;
         border-radius: 50%;
         width: 250px;
         height: auto;

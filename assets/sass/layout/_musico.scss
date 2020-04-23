@@ -1,5 +1,5 @@
 .musico {
-    padding: 4rem 0;
+    @include pagina;
 }
 
 .musico__texto {

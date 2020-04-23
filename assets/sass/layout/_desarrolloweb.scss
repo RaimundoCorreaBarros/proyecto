@@ -1,5 +1,5 @@
 .desarrolloweb {
-    padding: 4rem 0;
+    @include pagina;
     text-align: left;
 
 }
@@ -7,6 +7,8 @@
 .desarrolloweb__titulo {
     padding-bottom: 2rem;
 }
+
+
 
 
 

@@ -1,0 +1,26 @@
+@mixin pagina {
+    padding: 4rem 0;
+}
+
+@mixin boton {
+    background-color: $oscuromedio;
+    color: $white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 0;
+}
+
+@mixin sobre {
+    &:hover {
+        background-color: $oscuro ;
+        color: $white;
+    }
+}
+
+@mixin sombra {
+    &:focus {
+        box-shadow: $mangogris -15px 20px 20px -15px;
+        background-color: $oscuro;
+    }
+}
+

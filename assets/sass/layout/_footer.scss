@@ -5,6 +5,8 @@ footer {
     grid-template-rows: 1fr 1fr;
     justify-content: center;
     text-align: center;
+    background-color: $oscuromedio;
+    color: $white;
     
 }
 
@@ -13,12 +15,14 @@ footer {
 }
 .footer__iconos {
     grid-row: 1;
+    margin-bottom: .5rem;
     a {
         text-decoration: none;
-        color: $oscuromedio;
+        color: $white;
+        padding: 0 .6rem;
 
         :hover {
-            color: $oscuro;
+            color: $claro;
         }
     }  
 }

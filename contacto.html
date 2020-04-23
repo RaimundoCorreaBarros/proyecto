@@ -16,9 +16,9 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar__color">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Raimundo Correa</a>
+            <a class="navbar-brand navbar__logo" href="index.html"><img src="assets/images/svg/logo.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,20 +38,20 @@
     
         <form action="enviar.php" method="post">    
         
-            <label for="">Nombre</label><br>
+            <label for=""><h5>Nombre</h5></label><br>
             <input type="text" name="nombre" id="nombre"><br>
             
-            <label for="">E-mail</label><br>
+            <label for=""><h5>E-mail</h5></label><br>
             <input type="email" name="email" id="email"><br>
             
-            <label for="">Telefono</label><br>
+            <label for=""><h5>Telefono</h5></label><br>
             <input type="text" name="fono" id="fono"><br>
             
-            <label for="">Asunto</label><br>
+            <label for=""><h5>Asunto</h5></label><br>
             <input type="text" name="asunto" id="asunto"><br>
 
-            <label for="">Mensaje</label><br>
-            <input type="textarea" name="mensaje" id="mensaje" cols="20"><br>
+            <label for=""><h5>Mensaje</h5></label><br>
+            <textarea type="text" name="mensaje" id="mensaje" cols="20"></textarea><br>
             
             <input type="hidden" name="trampa"><br>
             
@@ -64,7 +64,7 @@
 
 
     <!-- footer -->
-    <footer class="bg-light footer">
+    <footer class="footer">
         <div class="footer_texto">
             <small>© 2020 Raimundo Correa</small>
         </div>

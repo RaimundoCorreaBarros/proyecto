@@ -1,19 +1,8 @@
 .btn-color {
-    background-color: $oscuromedio;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    border: 0;
-
-    a {
-        background-color: $oscuro;
-        color: $white;
-
-        :hover {
-            background-color: $oscuro;
-            color: $white;
-        }
-    }
-
+    @include boton;
+    @include sombra;
+    @include sobre;
+    transition: .5s ease-in;
 }
 
 .btn-contacto {
@@ -21,15 +10,15 @@
     background-color: $oscuromedio;
     border: 0;
     color: $white;
+    @include sombra;
+    @include sobre;
 
     a {
         color: $white;
         background-color: $oscuro;
-        :hover {
-            background-color: $oscuro;
-            color: $white;
-        }
     }
+}
 
-
+.btn-cv {
+    animation: ease-in-out;
 }
