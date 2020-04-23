@@ -10533,8 +10533,16 @@ label {
   padding-bottom: 2rem;
 }
 
-.modal-sm iframe {
-  width: 100%;
+@media (max-width: 576px) {
+  .modal-sm .modal-sm {
+    position: relative;
+    padding-bottom: 56.2%;
+  }
+  .modal-sm iframe {
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .sonido {
