@@ -11,7 +11,7 @@ main {
 }
 
 .main__foto {
-    padding: 5rem;
+    padding: 0 5rem 5rem 3rem;
     grid-column: 1;
     align-self: center;
 
@@ -28,10 +28,19 @@ main {
 }
 
 .main__texto {
-    padding: 5rem;
+    padding: 0 5rem 5rem 3rem;
     grid-column: 2;
     align-self: center;
+    animation: entrada ease-in;
 }
+
+.main__btn {
+    h4 {
+        color: $white;
+    }
+}
+
+
 
 @media (max-width: 992px) {
     main {
@@ -51,9 +60,14 @@ main {
         grid-column: 1;
         grid-row: 2;
         text-align: justify;
+
+        a {
+            font-weight: $bold;
+
+            h4 {
+                color: $white;
+            }
+        }
     }
 
 }
-
-
-

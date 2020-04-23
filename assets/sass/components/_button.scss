@@ -2,7 +2,8 @@
     @include boton;
     @include sombra;
     @include sobre;
-    transition: .5s ease-in;
+    transition-delay: 2s;
+    transition: 2s ease;
 }
 
 .btn-contacto {
@@ -20,5 +21,11 @@
 }
 
 .btn-cv {
-    animation: ease-in-out;
+    @include boton-cv;
+    @include sobre;
+
+    &:hover {
+        background-color: $cv2;
+        color: $white;
+    }
 }
