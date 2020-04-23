@@ -10430,6 +10430,10 @@ main p {
   main {
     padding-top: 0;
   }
+
+  .main__foto {
+    padding-top: 1;
+  }
 }
 .section {
   text-align: center;
@@ -10527,6 +10531,10 @@ label {
 
 .musico__texto {
   padding-bottom: 2rem;
+}
+
+.modal-sm iframe {
+  width: 100%;
 }
 
 .sonido {
