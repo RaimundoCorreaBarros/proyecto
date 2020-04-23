@@ -10253,32 +10253,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 @keyframes cv {
   0% {
-    width: 100%;
-    height: 100%;
-  }
-  30% {
-    width: 85%;
-    height: 80%;
+    width: 228px;
+    height: 53px;
   }
   50% {
-    width: 75%;
-    height: 65;
-  }
-  80% {
-    width: 85%;
-    height: 80%;
+    width: 240px;
+    height: 58px;
   }
   100% {
-    width: 100%;
-    height: 100%;
-  }
-}
-@keyframes entrada {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
+    width: 228px;
+    height: 53px;
   }
 }
 @media (min-width: 992px) {
@@ -10408,9 +10392,11 @@ main p {
   padding: 0 5rem 5rem 3rem;
   grid-column: 2;
   align-self: center;
-  animation: entrada ease-in;
 }
 
+.main__btn {
+  animation: cv 2s;
+}
 .main__btn h4 {
   color: #ffffff;
 }
@@ -10442,10 +10428,10 @@ main p {
   }
 }
 .section {
-  margin: 0 auto;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  text-align: center;
+}
+.section h2 {
+  padding-bottom: 2rem;
 }
 
 .section__tarjeta {
@@ -10546,6 +10532,15 @@ label {
 
 .sonido__img {
   height: 190px;
+}
+
+.error404 {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.error404_svg {
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

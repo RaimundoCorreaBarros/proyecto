@@ -31,10 +31,10 @@ main {
     padding: 0 5rem 5rem 3rem;
     grid-column: 2;
     align-self: center;
-    animation: entrada ease-in;
 }
 
 .main__btn {
+    animation: cv 2s;
     h4 {
         color: $white;
     }
