@@ -10276,12 +10276,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 2rem;
   padding-right: 2rem;
   border: 0;
+  box-shadow: 0px 0px 25px 0px #535c68;
   transition-delay: 2s;
   transition: 2s ease;
-}
-.btn-color:focus {
-  box-shadow: #535c68 -15px 20px 20px -15px;
-  background-color: #204051;
 }
 .btn-color:hover {
   background-color: #204051;
@@ -10293,10 +10290,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #3b6978;
   border: 0;
   color: #ffffff;
-}
-.btn-contacto:focus {
-  box-shadow: #535c68 -15px 20px 20px -15px;
-  background-color: #204051;
+  box-shadow: 0px 0px 25px 0px #535c68;
 }
 .btn-contacto:hover {
   background-color: #204051;
@@ -10395,6 +10389,7 @@ main p {
 }
 
 .main__btn {
+  border-top: 1rem;
   animation: cv 2s;
 }
 .main__btn h4 {
@@ -10511,6 +10506,10 @@ label {
 
 .desarrolloweb__img {
   height: 190px;
+}
+
+.desarrolloweb__sombra {
+  box-shadow: 0px 0px 25px 0px #535c68;
 }
 
 .musico {

@@ -9,7 +9,11 @@
 }
 
 .desarrolloweb__img {
-    height: 190px;
+    height: 190px; 
+}
+
+.desarrolloweb__sombra {
+    @include sombra;
 }
 
 
