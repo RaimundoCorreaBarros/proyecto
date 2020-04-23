@@ -27,8 +27,8 @@
 }
 
 @mixin sombra {
-    
-    box-shadow: 0px 0px 25px -0px $mangogris;
-    
+    &:hover {
+        box-shadow: 0px 0px 10px 0px $mangogris;
+    }
 }
 

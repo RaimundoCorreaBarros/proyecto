@@ -10276,9 +10276,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 2rem;
   padding-right: 2rem;
   border: 0;
-  box-shadow: 0px 0px 25px 0px #535c68;
   transition-delay: 2s;
   transition: 2s ease;
+}
+.btn-color:hover {
+  box-shadow: 0px 0px 10px 0px #535c68;
 }
 .btn-color:hover {
   background-color: #204051;
@@ -10290,7 +10292,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #3b6978;
   border: 0;
   color: #ffffff;
-  box-shadow: 0px 0px 25px 0px #535c68;
+}
+.btn-contacto:hover {
+  box-shadow: 0px 0px 10px 0px #535c68;
 }
 .btn-contacto:hover {
   background-color: #204051;
@@ -10422,6 +10426,11 @@ main p {
     color: #ffffff;
   }
 }
+@media (max-width: 576px) {
+  main {
+    padding-top: 0;
+  }
+}
 .section {
   text-align: center;
 }
@@ -10508,8 +10517,8 @@ label {
   height: 190px;
 }
 
-.desarrolloweb__sombra {
-  box-shadow: 0px 0px 25px 0px #535c68;
+.desarrolloweb__sombra:hover {
+  box-shadow: 0px 0px 10px 0px #535c68;
 }
 
 .musico {
@@ -10531,6 +10540,10 @@ label {
 
 .sonido__img {
   height: 190px;
+}
+
+.sonido__sombra:hover {
+  box-shadow: 0px 0px 10px 0px #535c68;
 }
 
 .error404 {

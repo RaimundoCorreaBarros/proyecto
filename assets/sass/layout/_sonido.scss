@@ -10,3 +10,7 @@
 .sonido__img {
     height: 190px;
 }
+
+.sonido__sombra {
+    @include sombra;
+}

@@ -72,3 +72,9 @@ main {
     }
 
 }
+
+@media (max-width: 576px){
+    main {
+        padding-top: 0;
+    }
+}
