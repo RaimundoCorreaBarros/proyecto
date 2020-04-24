@@ -1,5 +1,5 @@
-main {
-    @include pagina;
+main {   
+    @include pagina; 
     display: grid;
     grid-template-columns: .5fr 1fr;
     h1 {
@@ -10,8 +10,7 @@ main {
     }
 }
 
-.main__foto {
-    
+.main__foto {    
     grid-column: 1;
     align-self: center;
 
@@ -24,7 +23,8 @@ main {
 }
 
 .main__texto {
-    margin: 0 5rem 0 3rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
     grid-column: 2;
     align-self: center;
 }
@@ -46,7 +46,7 @@ main {
     }
 
     .main__foto {
-        padding-top: 2rem;
+        @include top;
         padding-bottom: 1rem;
         grid-row: 1;        
         justify-self: center;
@@ -71,11 +71,11 @@ main {
 
 @media (max-width: 576px){
     main {
-        padding-top: 0;
+        @include top;
     }
 
     .main__texto {
-        margin: 0;
+        @include top;
     }
 }
 

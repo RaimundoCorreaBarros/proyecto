@@ -12,6 +12,10 @@
 input, textarea {
     width: 350px;
     border: 2px solid $oscuromedio;
+
+    @media (max-width: 768px) {
+        width: 80%;
+    }
 }
 
 label {

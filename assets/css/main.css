@@ -10382,7 +10382,8 @@ main p {
 }
 
 .main__texto {
-  margin: 0 5rem 0 3rem;
+  margin-right: 5rem;
+  margin-bottom: 3rem;
   grid-column: 2;
   align-self: center;
 }
@@ -10402,7 +10403,8 @@ main p {
   }
 
   .main__foto {
-    padding-top: 2rem;
+    margin-top: 0;
+    padding-top: 0;
     padding-bottom: 1rem;
     grid-row: 1;
     justify-self: center;
@@ -10423,11 +10425,13 @@ main p {
 }
 @media (max-width: 576px) {
   main {
+    margin-top: 0;
     padding-top: 0;
   }
 
   .main__texto {
-    margin: 0;
+    margin-top: 0;
+    padding-top: 0;
   }
 }
 .section {
@@ -10500,6 +10504,11 @@ footer {
 input, textarea {
   width: 350px;
   border: 2px solid #3b6978;
+}
+@media (max-width: 768px) {
+  input, textarea {
+    width: 80%;
+  }
 }
 
 label {
