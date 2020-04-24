@@ -10361,7 +10361,7 @@ h1, h2, h3, h4, h5, h6 {
 main {
   padding: 4rem 0;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 0.5fr 1fr;
 }
 main h1 {
   font-size: 40px;
@@ -10371,7 +10371,6 @@ main p {
 }
 
 .main__foto {
-  padding: 0 5rem 5rem 3rem;
   grid-column: 1;
   align-self: center;
 }
@@ -10381,13 +10380,9 @@ main p {
   width: 250px;
   height: auto;
 }
-.main__foto img :hover {
-  box-shadow: 44.7058823529%;
-  box-shadow: 0 5px;
-}
 
 .main__texto {
-  padding: 0 5rem 5rem 3rem;
+  margin: 0 5rem 0 3rem;
   grid-column: 2;
   align-self: center;
 }
@@ -10431,8 +10426,8 @@ main p {
     padding-top: 0;
   }
 
-  .main__foto {
-    padding-top: 1;
+  .main__texto {
+    margin: 0;
   }
 }
 .section {

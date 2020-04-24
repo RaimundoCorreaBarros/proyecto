@@ -1,7 +1,7 @@
 main {
     @include pagina;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: .5fr 1fr;
     h1 {
         font-size: $xxx-large;
     }
@@ -11,7 +11,7 @@ main {
 }
 
 .main__foto {
-    padding: 0 5rem 5rem 3rem;
+    
     grid-column: 1;
     align-self: center;
 
@@ -20,15 +20,11 @@ main {
         border-radius: 50%;
         width: 250px;
         height: auto;
-        :hover {
-            box-shadow: lightness($color: #a04444);
-            box-shadow: 0 5px;
-        }
     }
 }
 
 .main__texto {
-    padding: 0 5rem 5rem 3rem;
+    margin: 0 5rem 0 3rem;
     grid-column: 2;
     align-self: center;
 }
@@ -78,8 +74,8 @@ main {
         padding-top: 0;
     }
 
-    .main__foto {
-        padding-top: 1;
+    .main__texto {
+        margin: 0;
     }
 }
 
