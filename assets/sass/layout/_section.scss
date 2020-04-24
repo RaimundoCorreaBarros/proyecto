@@ -7,16 +7,17 @@
 
 .section__tarjeta {
     text-align: center;
-    padding-bottom: 3rem;
-    
+    padding-bottom: 1rem;
 }
 
 .seccion__titulo {
     padding-bottom: .5rem;
 }
+.section__svg {
+    height: 133px;
+}
 
 svg {
-    
     width: 40%;
     fill: $claromedio;
 }

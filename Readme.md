@@ -9,15 +9,19 @@ Para convertir el sitio estatico a uno auto administrable desarrollare distintos
 
 Guía de Colores
 
-Aun no logro definir bien el uso de colores que deseo para este proyecto pero igualmente agrege algunos para ir probando. Espero poder llegar a los colores definitivos lo antes posible.
+En este proyecto use como base el color azul y el blanco para que sea un sitio mas bien limpio. Para los textos use un tono gris para que sea mas suave su lectura. Finalmente defini un color rojizo para el call to action del sitio web.
 
 $white: #ffffff;
 $black: #000000;
 $mangogris: #535c68;
+
 $oscuro: #204051;
 $oscuromedio: #3b6978;
 $claromedio: #84a9ac;
 $claro: #cae8d5;
+
+$cv1: #ff4f5e;
+$cv2: #B32531;
 
 
 Tipografías
