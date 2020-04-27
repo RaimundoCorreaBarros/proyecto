@@ -10,8 +10,16 @@
     padding-bottom: 1rem;
 }
 
-.seccion__titulo {
+.section__titulo {
     padding-bottom: .5rem;
+}
+
+.section__lista {
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
 }
 .section__svg {
     height: 133px;

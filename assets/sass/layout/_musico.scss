@@ -9,8 +9,7 @@
 
 .modal-sm {
 
-    @media (max-width: 576px) {
-        
+    @media (max-width: 576px) {        
         .modal-sm {
             position: relative;
             padding-bottom: 56.2%;
@@ -22,6 +21,4 @@
             height: auto;
           }
     }
-
-
 }
