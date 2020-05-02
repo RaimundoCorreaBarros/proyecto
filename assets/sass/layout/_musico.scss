@@ -6,6 +6,9 @@
     padding-bottom: 2rem;
 }
 
+.musico__sombra {
+    @include sombra;
+}
 
 .modal-sm {
 

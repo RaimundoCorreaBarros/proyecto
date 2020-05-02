@@ -35,31 +35,33 @@
 
     <div class="contacto container">
         <h2>Contacto</h2>
-    
-        <form action="enviar.php" method="post" class="container">    
-        
-            <label for=""><h5>Nombre</h5></label><br>
-            <input type="text" name="nombre" id="nombre"><br>
-            
-            <label for=""><h5>E-mail</h5></label><br>
-            <input type="email" name="email" id="email"><br>
-            
-            <label for=""><h5>Telefono</h5></label><br>
-            <input type="text" name="fono" id="fono"><br>
-            
-            <label for=""><h5>Asunto</h5></label><br>
-            <input type="text" name="asunto" id="asunto"><br>
 
-            <label for=""><h5>Mensaje</h5></label><br>
-            <textarea type="text" name="mensaje" id="mensaje" cols="20"></textarea><br>
-            
-            <input type="hidden" name="trampa"><br>
-            
-            <button type="submit" value="Enviar" class="btn btn-contacto">Enviar</button> <br>
-    
+        <form action="enviar.php" method="post" class="container">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <input type="text" name="nombre" class="form-control" placeholder="Nombre"><br>
+              </div>
+              <div class="col-12 col-sm-6">
+                <input type="email" name="email" class="form-control" placeholder="email"><br>
+              </div>
+              <div class="col-12 col-sm-6">
+                <input type="text" name="fono" class="form-control" placeholder="Teléfono"><br>
+              </div>
+              <div class="col-12 col-sm-6">
+                <input type="text" name="asunto" class="form-control" placeholder="asunto"><br>
+              </div>
+              <div class="col-12">
+                <textarea type="text" name="asunto" class="form-control" placeholder="mensaje"></textarea><br>
+              </div>
+              <div class="col-12">
+                <button type="submit" value="Enviar" class="btn btn-contacto">Enviar</button>
+              </div>
+                             
+            </div>
         </form>
-
-
+        
+        
+        
     </div>
 
 

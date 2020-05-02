@@ -1,21 +1,20 @@
 .contacto {
     @include pagina;
-    width: 400px;
+    width: 50%;
 
     h2 {
         text-align: center;
         padding-bottom: 2rem;
     }
 
-}
-
-input, textarea {
-    width: 350px;
-    border: 2px solid $oscuromedio;
-
     @media (max-width: 768px) {
         width: 80%;
     }
+
+}
+
+input, textarea {
+    border: 2px solid $oscuromedio;
 }
 
 label {
