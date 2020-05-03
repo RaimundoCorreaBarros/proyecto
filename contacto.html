@@ -34,9 +34,12 @@
     </nav>
 
     <div class="contacto container">
-        <h2>Contacto</h2>
+        <div class="contacto__texto">
+          <h2>Contacto</h2>
+          <p>Si deseas contactarte conmigo para que trabajemos juntos, ya sea en un proyecto web, audiovisual o en ambas áreas, completa el siguiente formulario y te responderé a la brevedad.</p>
+        </div>
 
-        <form action="enviar.php" method="post" class="container">
+        <form action="enviar.php" method="post">
             <div class="row">
               <div class="col-12 col-sm-6">
                 <input type="text" name="nombre" class="form-control" placeholder="Nombre"><br>
@@ -55,8 +58,7 @@
               </div>
               <div class="col-12">
                 <button type="submit" value="Enviar" class="btn btn-contacto">Enviar</button>
-              </div>
-                             
+              </div>         
             </div>
         </form>
         

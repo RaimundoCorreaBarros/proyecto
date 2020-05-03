@@ -2,15 +2,14 @@
     @include pagina;
     width: 50%;
 
-    h2 {
-        text-align: center;
-        padding-bottom: 2rem;
-    }
-
     @media (max-width: 768px) {
         width: 80%;
     }
 
+}
+
+.contacto__texto {
+    padding-bottom: 2rem;
 }
 
 input, textarea {
